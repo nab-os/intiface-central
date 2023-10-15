@@ -13,7 +13,8 @@ exclude = [".vscode/**"]
 intiface-engine = "1.4.5"
 # intiface-engine = { path = "../../intiface-engine" }
 # THIS MUST ALWAYS MATCH THE VERSION USED BY INTIFACE ENGINE
-buttplug = { path = "/home/nabos/clones/buttplug/buttplug" }
+#buttplug = { path = "/home/nabos/clones/buttplug/buttplug" }
+buttplug = { git = "https://github.com/nab-os/buttplug" }
 # buttplug = "7.1.6"
 flutter_rust_bridge = "1.82.1"
 log = "0.4.20"
